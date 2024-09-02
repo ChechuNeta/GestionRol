@@ -1,0 +1,267 @@
+/* Estilos generales del body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para el modal de Editar Estadísticas */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.modal-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Estilos para el modal de Usar Objeto */
+.usarobjetomodal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.usarobjetomodal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+}
+
+.usarobjetomodal-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.usarobjetomodal-close:hover,
+.usarobjetomodal-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* Estilos para el modal de Usar Habilidad */
+.modal-habilidad {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-habilidad-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+}
+
+.modal-habilidad-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.modal-habilidad-close:hover,
+.modal-habilidad-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* Estilos para el modal de Crear Movimiento */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+}
+
+.modal-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+/* Estilos para formularios en modales */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label,
+form input,
+form textarea,
+form button {
+    margin-bottom: 10px;
+}
+
+/* Botones de cancelar */
+.modal-cancelBtn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.modal-cancelBtn:hover {
+    background-color: #e57373;
+}
+
+
+
+
+/**************MIO****************/
+#encabezado {
+    width: 100%;
+    height: 150px; /* Ajusta el alto del encabezado según sea necesario */
+    background-color: #ffc400; /* Color de fondo del encabezado */
+    color: white; /* Color del texto */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#encabezado .titulo
+{
+    text-align: center;
+    font-size: 100px;
+    text-decoration: underline;
+    font-weight: bold;
+    margin: 0;
+}
+
+#encabezado .vida {
+    position: absolute;
+    font-size: 50px !important;
+    top: 10px;
+    right: 20px;
+    font-size: 16px;
+    margin: 0;
+}
+
+
+#contenedor {
+    display: flex;
+    margin: 14px; /* Espacio entre el encabezado y el contenedor */
+    gap: 1em;
+
+}
+
+/* Estilo para el div de estadísticas */
+#estadisticas {
+    flex: 1;
+    background-color: #f4f4f4;
+    border: 2px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+/* Estilo para el otro div, que ocupará la mitad de la página */
+#habilidades {
+    flex: 1;
+    background-color: #e4e4e4;
+    border: 2px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+
+#contenedor2 {
+    display: flex;
+    margin: 14px; /* Espacio entre el contenedor y este nuevo contenedor */
+    gap: 1em;
+}
+
+/* Estilo para el div de objetos */
+#objetos {
+    flex: 1;
+    background-color: #e4e4e4;
+    border: 2px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Estilo para el div de movimientos */
+#movimientos {
+    flex: 1;
+    background-color: #f4f4f4;
+    border: 2px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    max-height: 300px; /* Ajusta el alto máximo según tus necesidades */
+    overflow: auto; /* Añade barras de desplazamiento cuando el contenido excede el alto */
+}

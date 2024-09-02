@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<personajes>
+  <personaje>
+    <id_personaje>1</id_personaje>
+    <nombre>Orwhan</nombre>
+    <fuerza>41</fuerza>
+    <destreza>68</destreza>
+    <vida>60</vida>
+    <inteligencia>54</inteligencia>
+    <carisma>47</carisma>
+    <velocidad>74</velocidad>
+    <puntosVida>282</puntosVida>
+    <nivel>1</nivel>
+    <talentos>
+      <talento>
+        <id_talento>1</id_talento>
+        <nombre>Vista de Halc&#xF3;n</nombre>
+        <descripcion>Es capaz de detectar movimiento en un rango de 2km y saber de que se trata</descripcion>
+      </talento>
+    </talentos>
+    <habilidades>
+      <habilidad>
+        <id_habilidad>1</id_habilidad>
+        <nombre>R&#xE1;faga</nombre>
+        <descripcion>Vac&#xED;a los cargadores en 1s con una potencia abismal (D*2*12)</descripcion>
+        <nivel>1</nivel>
+      </habilidad>
+      <habilidad>
+        <id_habilidad>2</id_habilidad>
+        <nombre>Balas Sanatorias</nombre>
+        <descripcion>Dispara a un aliado o a s&#xED; mismo un total de D6 veces y cada bala regenera 50hp</descripcion>
+        <nivel>1</nivel>
+      </habilidad>
+      <habilidad>
+        <id_habilidad>3</id_habilidad>
+        <nombre>Ocultaci&#xF3;n</nombre>
+        <descripcion>Orwhan desaparece del &#xE1;ngulo de visi&#xF3;n de todos durante un ataque y lo esquiva</descripcion>
+        <nivel>1</nivel>
+      </habilidad>
+    </habilidades>
+    <objetos>
+      <objeto>
+        <id_objeto>1</id_objeto>
+        <nombre>Bala de Mecha</nombre>
+        <utilidad>Realizan un 50% m&#xE1;s de da&#xF1;o que las balas normales</utilidad>
+        <cantidad>60</cantidad>
+      </objeto>
+      <objeto>
+        <id_objeto>2</id_objeto>
+        <nombre>Bengala</nombre>
+        <utilidad>Marca posici&#xF3;n</utilidad>
+        <cantidad>3</cantidad>
+      </objeto>
+      <objeto>
+        <id_objeto>3</id_objeto>
+        <nombre>Caja de munici&#xF3;n</nombre>
+        <utilidad>Caja de balas infinitas de Orwhan</utilidad>
+        <cantidad>1</cantidad>
+      </objeto>
+      <objeto>
+        <id_objeto>4</id_objeto>
+        <nombre>Material de limpieza</nombre>
+        <utilidad>Orwhan la utiliza para limpiar sus rev&#xF3;lveres</utilidad>
+        <cantidad>1</cantidad>
+      </objeto>
+      <objeto>
+        <id_objeto>5</id_objeto>
+        <nombre>Petaca de alcohol</nombre>
+        <utilidad>Petaca con bebida</utilidad>
+        <cantidad>1</cantidad>
+        <mililitros>500</mililitros>
+      </objeto>
+      <objeto>
+        <id_objeto>6</id_objeto>
+        <nombre>Monedas de Oro</nombre>
+        <utilidad>Moneda de la Regi&#xF3;n</utilidad>
+        <cantidad>73</cantidad>
+      </objeto>
+      <objeto>
+        <id_objeto>7</id_objeto>
+        <nombre>Vendas</nombre>
+        <utilidad>Vendas para curar heridas (+75hp)</utilidad>
+        <cantidad>10</cantidad>
+      </objeto>
+      <objeto>
+        <id_objeto>8</id_objeto>
+        <nombre>Frasco con veneno</nombre>
+        <utilidad>Veneno sacado de escorpi&#xF3;n</utilidad>
+        <cantidad>1</cantidad>
+        <mililitros>250</mililitros>
+      </objeto>
+      <objeto>
+        <id_objeto>9</id_objeto>
+        <nombre>Armadura(-10%)</nombre>
+        <utilidad>-10% Da&#xF1;o</utilidad>
+        <cantidad>1</cantidad>
+      </objeto>
+    </objetos>
+    <movimientos>
+    <movimiento><id_movimiento>2</id_movimiento><descripcion>Inicia combate Orcos</descripcion></movimiento><movimiento><id_movimiento>3</id_movimiento><descripcion>Orwhan usa "Vista de Halcon" y detecta a ChumChum</descripcion></movimiento><movimiento><id_movimiento>4</id_movimiento><origen>Orwhan</origen><destino>Abducio</destino><daño_realizado>50</daño_realizado><descripcion>Orwhan ha usado Balas Sanatorias contra Abducio y le cura 50 de vida</descripcion></movimiento><movimiento><id_movimiento>5</id_movimiento><descripcion>Fin Batalla Orcos</descripcion></movimiento><movimiento><id_movimiento>6</id_movimiento><descripcion>Inicio combate Reina Bruja</descripcion></movimiento><movimiento><id_movimiento>7</id_movimiento><origen>Orwhan</origen><destino/><descripcion>Orwhan ha usado Ocultaci&#xF3;n se oculta del campo de vision por un turno</descripcion></movimiento><movimiento><id_movimiento>8</id_movimiento><descripcion>Evita 70 puntos de da&#xF1;o gracias a Ocultaci&#xF3;n</descripcion></movimiento><movimiento><id_movimiento>9</id_movimiento><origen>Orwhan</origen><destino>Goblin volador</destino><daño_realizado>96</daño_realizado><descripcion>Orwhan ha usado R&#xE1;faga contra Goblin volador y causa 96 de da&#xF1;o</descripcion></movimiento><movimiento><id_movimiento>10</id_movimiento><cura_recibida>100</cura_recibida><descripcion>Orwhan ha recibido 70 puntos de vida por Plumas curativas de Rebekha</descripcion></movimiento><movimiento><id_movimiento>11</id_movimiento><origen>Orwhan</origen><destino>Missigno</destino><daño_realizado>50</daño_realizado><descripcion>Orwhan ha usado Balas Sanatorias contra Missigno y le cura 50 de vida</descripcion></movimiento><movimiento><id_movimiento>12</id_movimiento><daño_recibido>18</daño_recibido><descripcion>Orwhan ha recibido 18 puntos de da&#xF1;o por bombas (durante el combate)</descripcion></movimiento></movimientos>
+    </personaje>
+</personajes>
